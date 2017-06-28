@@ -101,7 +101,7 @@ var BITCORE_LIVENET = null;
 var OfflineWallet = function(secret, type, symbol){
 	//
 	// Set default settings.
-	this.symbol = symbol || 'MONA';
+	this.symbol = symbol || 'BTC';
 	BITCORE_LIVENET = OFFLINE_WALLET_NETWORKS[this.symbol];
 	this.minconf = OFFLINE_WALLET_MINCONF_DEFAULT[this.symbol];
 	this._feeSat = OFFLINE_WALLET_FEE_SAT_DEFAULT[this.symbol];

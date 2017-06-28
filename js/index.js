@@ -130,7 +130,7 @@ var changeCurrency = function(symbol){
 
 var getCurrency = function(){
 	var symbol = localStorage.getItem('symbol');
-	return symbol || 'MONA';
+	return symbol || 'BTC';
 }
 
 var updateRecipientLabel = function(i){
